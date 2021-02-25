@@ -1,0 +1,75 @@
+# Metadata for Singapore Residents by Planning Area/Subzone, Age Group and Sex
+---
+Identifier: '6d73f95d-05d2-47e1-aaba-3ae37a124f18'
+Name: 'singapore-residents-by-planning-area-subzone-age-group-and-sex'
+Title: 'Singapore Residents by Planning Area/Subzone, Age Group and Sex'
+Description:
+  - 'Note:'
+  - '1) For Jun 2000, Planning Areas refer to areas demarcated in the Urban Redevelopment
+    Authority''s Master Plan 1998.'
+  - '2) For Jun 2001 to 2010, Planning Areas refer to areas demarcated in the Urban
+    Redevelopment Authority''s Master Plan 2008.'
+  - '3) For Jun 2011 to 2018, Planning Areas refer to areas demarcated in the Urban
+    Redevelopment Authority''s Master Plan 2014.'
+  - '4) Data from 2003 onwards exclude residents who have been away from Singapore
+    for a continuous period of 12 months or longer as at the reference period.'
+  - '5) The figures have been rounded to the nearest 10.'
+  - '6) The data may not add up due to rounding.'
+Topics:
+  - 'Society'
+Keywords:
+  - 'census of population'
+Publisher:
+  Name: 'Ministry of Trade and Industry - Department of Statistics'
+  Admin 1:
+    Name: 'Admin'
+    Department: 'Data.gov'
+    Email: 'admin@data.gov.sg'
+Sources:
+  - 'Ministry of Trade and Industry - Department of Statistics'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2000-01-01 to 2005-12-31'
+Last Updated: '2019-06-10T04:21:30.095021'
+Resources:
+  -
+    Identifier: 'ad854cc4-f9a3-4208-a9e5-cb8d7fb0a76c'
+    Title: 'Singapore Residents by Planning Area/Subzone, Age Group and Sex, June
+      2000 onwards'
+    Url: 'https://storage.data.gov.sg/singapore-residents-by-planning-area-subzone-age-group-and-sex/resources/singapore-residents-by-planning-area-subzone-age-group-and-sex-june-2000-onwards-2019-06-10T04-21-11Z.csv'
+    Format: 'CSV'
+    Coverage: '2000-01-01 to 2005-12-31'
+    Last Updated: '2019-06-10T04:21:11.449405'
+    Schema:
+      -
+        Name: 'planning_area'
+        Title: 'Planning area'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'subzone'
+        Title: 'Subzone'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'age_group'
+        Title: 'Age group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'sex'
+        Title: 'Sex'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'resident_count'
+        Title: 'Resident count'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'no. of residents'
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
